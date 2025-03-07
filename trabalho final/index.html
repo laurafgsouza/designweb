@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="main-header flex">
+            <div class="logo-container">
+                <img src="assets/img/logo-awe.png" alt="Agency Web Logo">
+            </div>
+            <div class="user-profile flex">
+                <button class="suspend-btn flex">Suspend registrations <a href=""><img src="assets/img/pause-circle.svg" alt="Pause button"></a></button>
+                <div class="user-info">
+                    <svg class="circle-progress" width="50" height="50">
+                       
+                    </svg>
+                    <img src="assets/img/Foto - perfil.png" alt="Profile Picture" class="profile-image">
+                </div>
+                <strong class="highlight">Clayton</strong>
+                <a href=""><img src="assets/img/chevron-down.svg" alt="Downward arrow"></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="layout-container flex">
+        <nav class="sidebar">
+            <div class="sidebar-header flex">
+                <a href=""><img src="assets/img/chevron-left.svg" alt="Back arrow"></a>
+                <menu>
+                    <button class="sidebar-item flex">
+                        <span class="icon-box dashboard"><img src="assets/img/icon-blue.svg" alt="Dashboard icon"></span>
+                        <div class="item-label">Dashboard</div>
+                    </button>
+                    <button class="sidebar-item flex">
+                        <span class="icon-box registrations"><img src="assets/img/users.svg" alt="Users icon"></span>
+                        <div class="item-label">Inscrições</div>
+                    </button>
+                    <button class="sidebar-item flex">
+                        <span class="icon-box reports"><img src="assets/img/report.svg" alt="Reports icon"></span>
+                        <div class="item-label">Relatórios</div>
+                    </button>
+                    <button class="sidebar-item flex">
+                        <span class="icon-box communication"><img src="assets/img/send.svg" alt="Send icon"></span>
+                        <div class="item-label">Communicação</div>
+                    </button>
+                    <button class="sidebar-item flex">
+                        <span class="icon-box events"><img src="assets/img/Group.svg" alt="Events icon"></span>
+                        <div class="item-label">Meus eventos</div>
+                    </button>
+                </menu>                
+            </div>
+            <div class="sidebar-footer">
+                <menu>
+                    <button class="sidebar-item flex">
+                        <span class="icon-box settings"><img src="assets/img/settings.svg" alt="Settings icon"></span>
+                        <div class="item-label">Configurações</div>
+                    </button>
+                    <button class="sidebar-item flex">
+                        <span class="icon-box logout"><img src="assets/img/sair.svg" alt="Logout icon"></span>
+                        <div class="item-label">Sair                                                                                                                                                                                                                                                                                                                     </div>
+                    </button>
+                </menu>
+            </div>
+        </nav>
+
+        <main class="main-content">
+            <header class="main-header flex">
+                <div class="header-left">
+                    <div class="event-info flex">
+                        <h3>SEMADEC AWE 2025</h3>
+                        <a href=""><img src="assets/img/external-link.svg" alt="External link icon"></a>
+                    </div>
+                    <div class="event-details flex">
+                        <span class="event-date">
+                            <img src="assets/img/calendar.svg" alt="Calendar icon"> 19/03/2025
+                        </span>
+                        <span class="event-location">
+                            <img src="assets/img/map-pin.svg" alt="Location icon"> IFZN
+                        </span>
+                        <span class="event-status flex">
+                            <img class="status-icon" src="assets/img/user-check.svg" alt="User check icon">
+                            <strong>Recebendo Inscrições</strong>
+                        </span>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <button><img src="assets/img/edit.svg" alt="Edit icon"> Editar</button>
+                </div>
+            </header>
+
+            <section class="stats-cards flex">
+                <div class="card stats-card">
+                    <div class="card-header flex">
+                        <div class="card-title flex">
+                            <span><img src="assets/img/users-blue.svg" alt="User icon"></span>
+                            <span>Inscrições</span>
+                        </div>
+                        <div class="card-link">
+                            <img src="assets/img/external-link-blue.svg" alt="External link">
+                        </div>  
+                    </div>
+                    <h2 class="stat-value">125.542</h2>
+                    <span>35% pendentes</span>
+                </div>
+
+                <div class="card stats-card">
+                    <div class="card-header flex">
+                        <div class="card-title flex">
+                            <span><img src="assets/img/percent.svg" alt="Percentage icon"></span>
+                            <span>Descontos</span>
+                        </div>
+                        <div class="card-link">
+                            <img src="assets/img/external-link-blue.svg" alt="External link">
+                        </div>  
+                    </div>
+                    <h2 class="stat-value">145</h2>
+                    <span>30% usados</span>
+                </div>
+
+                <div class="card stats-card">
+                    <div class="card-header flex">
+                        <div class="card-title flex">
+                            <span><img src="assets/img/percent.svg" alt="Percentage icon"></span>
+                            <span>Movimentação</span>
+                        </div>
+                        <div class="card-links flex">
+                            <img src="assets/img/eye.svg" alt="Eye icon">
+                            <img src="assets/img/external-link-blue.svg" alt="External link">
+                        </div>  
+                    </div>
+                    <div class="amount flex">
+                        <span>R$</span>
+                        <h2 class="stat-value">1.456.999,00</h2>
+                    </div>
+                    <span>+ R$ **** em processamento</span>
+                </div>
+            </section>
+
+            <section class="quick-actions">
+                <div class="section-title"><p><strong>Funções</strong> rápidas</p></div>
+                <div class="quick-buttons flex">
+                    <div class="action-btn flex">
+                        <i class="icon icon-reports">
+                            <img src="assets/img/file-text.svg" alt="File icon">
+                        </i>
+                        <span>Relatórios</span>
+                    </div>
+                    <div class="action-btn flex">
+                        <i class="icon icon-add">
+                            <img src="assets/img/user-plus.svg" alt="User plus icon">
+                        </i>
+                        <span>Add inscrição</span>
+                    </div>
+                    <div class="action-btn flex">
+                        <i class="icon icon-discounts">
+                            <img src="assets/img/percent (1).svg" alt="Discounts icon">
+                        </i>
+                        <span>Descontos</span>
+                    </div>
+                    <div class="action-btn flex">
+                        <i class="icon icon-import">
+                            <img src="assets/img/users (1).svg" alt="Users icon">
+                        </i>
+                        <span>Importar</span>
+                    </div>
+                    <div class="action-btn flex">
+                        <i class="icon icon-courses">
+                            <img src="assets/img/trello.svg" alt="Courses icon">
+                        </i>
+                        <span>Cursos</span>
+                    </div>
+                    <div class="action-btn flex more-items">
+                        <i class="icon icon-more">
+                            <img src="assets/img/plus-circle.svg" alt="Plus icon">
+                        </i>
+                        <span>Mais itens</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="recent-registrations">
+                <div class="section-header flex">
+                    <div class="section-title"><p><strong>Últimas</strong>inscrições</p></div>
+                    <a href="">Ver tudo</a>
+                </div>
+            
+                <div class="table-container flex">
+                    <table class="registration-table">
+                        <tr>
+                            <td class="name flex"><span class="green-dot"></span>Clayton Rennan</td>
+                            <td class="course">Info</td>
+                            <td class="activities">Swimming, Judo</td>
+                        </tr>
+                        <tr>
+                            <td class="name flex"><span class="green-dot"></span>Andriel Gleisson</td>
+                            <td class="course">Info</td>
+                            <td class="activities">League of Legends</td>
+                        </tr>
+                        <tr>
+                            <td class="name flex"><span class="green-dot"></span>Filipis Santana</td>
+                            <td class="course">Electronics</td>
+                            <td class="activities">League of Legends</td>
+                        </tr>
+                        <tr>
+                            <td class="name flex"><span class="neutral-dot"></span>Alex Sandro</td>
+                            <td class="course">Commerce</td>
+                            <td class="activities">Table Tennis</td>
+                        </tr>
+                        <tr class="highlighted">
+                            <td class="name flex"><span class="red-dot"></span>João da Silva</td>
+                            <td class="course">Info</td>
+                            <td class="activities">Futsal</td>
+                        </tr>
+                    </table>
+            
+                    <div class="registration-stats">
+                        <div class="section-title"><p><strong>Inscrições</strong> Realizadas</p></div>
+                        <div class="percent-cards flex">
+                            <div class="percent-card first flex">
+                                <strong>33%</strong>
+                                <span>63</span>
+                            </div>
+                            <div class="percent-card second flex">
+                                <strong>30%</strong>
+                                <span>54</span>
+                            </div>
+                            <div class="percent-card third flex">
+                                <strong>30%</strong>
+                                <span>54</span>
+                            </div>
+                            <div class="percent-card fourth flex">
+                                <strong>7%</strong>
+                                <span>13</span>
+                            </div>
+                        </div>
+
+                        <div class="category-legend flex">
+                            <div class="category-item flex">
+                                <span class="category-dot first"></span><p><strong>Informática</strong></p>
+                            </div>
+                            <div class="category-item flex">
+                                <span class="category-dot second"></span><p><strong>Eletrônica</strong></p>
+                            </div>
+                            <div class="category-item flex">
+                                <span class="category-dot third"></span><p><strong>Comércio</strong></p>
+                            </div>
+                            <div class="category-item flex">
+                                <span class="category-dot fourth"></span><p>Outros</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </section>
+        </main>
+
+        <aside class="right-sidebar">
+            <div class="right-sidebar-content">
+                <a href=""><img src="assets/img/chevron-right.svg" alt="Right arrow"></a>
+                <div class="pending-title">
+                    <strong>Pendências</strong>
+                    <p>Acompanhe todas as ações necessárias</p>
+                </div>
+
+                <div class="action-buttons flex">
+                    <div class="action-btn-container flex">
+                        <button class="pending-action-btn flex">
+                            <div class="action-icon cancel flex">
+                                <div class="badge flex">10</div>
+                            </div>
+                            Pedidos de cancelamento
+                        </button>
+                    </div>
+    
+                    <div class="action-btn-container flex">
+                        <button class="pending-action-btn flex">
+                            <div class="action-icon message flex">
+                                <div class="badge flex">10</div>
+                            </div>
+                            Solicitação de atendimento
+                        </button>
+                    </div>
+    
+                    <div class="action-btn-container flex">
+                        <button class="pending-action-btn flex">
+                            <div class="action-icon doc flex">
+                                <div class="badge flex">10</div>
+                            </div>
+                            Avaliação de documentos
+                        </button>
+                    </div>
+                </div>
+
+                <div class="last-title flex">
+                    <div><strong>Atividades recentes</strong></div>
+                    <a href="">Ver todas</a>
+                </div>
+
+                <div class="task-card">
+                    <div class="task-title"><strong>Entrega de kits da SEMADEC AWE 2025</strong></div>
+                    <div class="task-details">
+                        Seu kit estará disponível para retirada nos dias 01, 02, 03 e 04 de novembro no Arena ZN.
+                    </div>
+                    <div class="task-timestamp">20/11/2024 18:00:45</div>
+                </div>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>
